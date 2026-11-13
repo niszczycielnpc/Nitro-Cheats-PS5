@@ -8,3 +8,7 @@
 .externalNativeBuild/
 .cxx/
 **/build/
+__pycache__/
+*.pyc
+*.jks
+*.keystore
