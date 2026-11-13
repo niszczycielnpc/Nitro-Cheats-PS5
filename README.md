@@ -33,7 +33,7 @@ Ps5NitroCheats/
 4. Core tests from the command line: `./gradlew :core:test` (Windows: `gradlew.bat :core:test`). The
    `communityFilesParse` test checks the SHN reader against community cheat files and is skipped when they are not on disk.
 
-> **Honest note on verification.** `:core` (the whole protocol, scanners, tracer, export, FTP) was compiled and tested
+>`:core` (the whole protocol, scanners, tracer, export, FTP) was compiled and tested
 > here - all 73 tests pass - but against a *simulated* server built from ps5debug-NG's PROTOCOL.md and source,
 > not against a real console. The `:app` module was **not built with a real Android SDK** (the build
 > environment had no access to Google/Maven): it was type-checked with the Kotlin compiler against stand-ins for
